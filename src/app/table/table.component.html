@@ -1,0 +1,21 @@
+<table border="1">
+
+<thead>
+    <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>EMAIL</th>
+        <th>BRANCH</th>
+        <th>MOBILE NUMBER</th>
+    </tr>
+    </thead>
+    <Tbody>
+        <Tr *ngFor="let t of tabledata">
+            <td>{{t.id}}</td>
+            <td>{{t.name}}</td>
+            <td>{{t.email}}</td>
+            <td>{{t.branch}}</td>
+            <td>{{t.mobilenumber}}</td>
+        </Tr>
+    </Tbody>
+</table>
